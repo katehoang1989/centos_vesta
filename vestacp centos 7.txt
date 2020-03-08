@@ -1,0 +1,27 @@
+
+
+/usr/bin/mysqladmin -u root password tuan1989
+/usr/bin/mysqladmin -u root -h paul password tuan1989
+
+Theme
+https://github.com/cdgco/VestaWebInterface
+	cd /home/admin/web/mydomain.com/public_html/
+	bash <(curl -s https://cdgco.github.io/full)
+	chmod 755 includes
+	
+Wordpress
+https://github.com/maskoid/vestacp-wordpress-installer
+	wget -N https://raw.githubusercontent.com/maskoid/vestacp-wordpress-installer/master/install.sh
+	bash install.sh
+
+Vesra_Template
+https://github.com/luizotavior/vesta_templates
+	cd /usr/local/vesta/data/templates/web
+	git clone https://github.com/luizotavior/vesta_templates.git
+	cp -R vesta_templates/apache2 .
+	cp -R vesta_templates/nginx .
+	rm -R vesta_templates
+	
+vestacp-php-pfpm-nginx-opencart-template
+https://github.com/javamagnetic/vestacp-php-pfpm-nginx-opencart-template
+	
